@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belle</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/new_blah.css' %}">
+</head>
+<body>
+    <div class="header">
+        <img src="{% static 'images/belle.jpg' %}">
+        <ul class="nav">
+            <li><a href="#">First</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Other</a></li>
+        </ul>
+
+    </div>
+
+    <div class="main-content">
+        <h2>Article</h2>
+        <ul class="articles">
+
+            <li>
+                <img src="{% static 'images/img01.jpg' %}" width="100" height="90">
+
+                <div class="article-info">
+                    <h3><a href="#">One</a></h3>
+                    <p class="meta-info">
+                        <span class="meta-cate">fun</span>
+                        <span class="meta-cate">Wow</span>
+                    </p>
+                    <p class="description">Very Sexy</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="{% static 'images/img02.jpg' %}" width="100" height="90">
+
+                <div class="article-info">
+                    <h3><a href="#">Two</a></h3>
+                    <p class="meta-info">
+                        <span class="meta-cate">fun</span>
+                        <span class="meta-cate">Wow</span>
+                    </p>
+                    <p class="description">Very Sexy</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="{% static 'images/img03.jpg' %}" width="100" height="90">
+
+                <div class="article-info">
+                    <h3><a href="#">There</a></h3>
+                    <p class="meta-info">
+                        <span class="meta-cate">fun</span>
+                        <span class="meta-cate">Wow</span>
+                    </p>
+                    <p class="description">Very enjoy</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="{% static 'images/img04.jpg' %}" width="100" height="90">
+                <div class="article-info">
+                    <h3><a href="#">Four</a></h3>
+                    <p class="meta-info">
+                        <span class="meta-cate">fun</span>
+                        <span class="meta-cate">Wow</span>
+                    </p>
+                    <p class="description">Very beautiful</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Linvisf-coding</p>
+    </div>
+</body>
+</html>
